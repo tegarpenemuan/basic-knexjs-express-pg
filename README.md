@@ -29,3 +29,5 @@ $ knex seed:make NamaSeeder // Membuat file seeder
 $ npm run seed // Jalankan seeding
 $ knex seed:run --specific=filename.js --specific=filename.js //Jalankan secara spesifik file
 ```
+
+Catatan: Ini hanya untuk latihan.
