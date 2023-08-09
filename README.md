@@ -19,6 +19,7 @@ $ npm i nodemon -D
 ```
 $ knex migrate:make NamaMigration // Membuat file migration
 $ npm run migrate // Jalankan migration
+$ knex migrate:up migration_name.js // Jalankan 1 migration
 ```
 
 # Lakukan Seeding
@@ -26,4 +27,5 @@ $ npm run migrate // Jalankan migration
 ```
 $ knex seed:make NamaSeeder // Membuat file seeder
 $ npm run seed // Jalankan seeding
+$ knex seed:run --specific=filename.js --specific=filename.js //Jalankan secara spesifik file
 ```
